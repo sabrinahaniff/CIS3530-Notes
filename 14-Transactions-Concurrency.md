@@ -389,15 +389,6 @@ T1 → T2 → T1  (Cycle!)
 
 </details>
 
----
-
-## Related Topics
-
-- [[15-Locking-Protocols|Detailed Locking Protocols]]
-- [[16-Recovery|Recovery & Logging]]
-- [[14b-Isolation-Levels|Isolation Levels]]
 
 ---
 
-## Tags
-#transactions #acid #concurrency #locking #2pl #deadlock #serializability
