@@ -284,6 +284,3 @@ _{G}𝓖_{agg(A)} → SELECT G, agg(A) ... GROUP BY G
 8. **Strict 2PL**: Hold locks until **commit**, not just end of operation
 
 ---
-
-## Tags
-#cheatsheet #quick-reference #exam-prep #study-guide
