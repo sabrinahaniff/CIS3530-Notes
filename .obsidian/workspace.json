@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "7572ce1479a83fad",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb098a6c1375b769",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "479e4070568e9c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GITHUB-README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GITHUB-README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "059ce92fbb3ce536",
+    "type": "split",
+    "children": [
+      {
+        "id": "975859bdbbed5c2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fab60e0938aff76d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a08c05764ee78fc1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bc06a8bc022df600",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa48f281ef7805db",
+    "type": "split",
+    "children": [
+      {
+        "id": "62a21441b451c339",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2422774233c3d2e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GITHUB-README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GITHUB-README"
+            }
+          },
+          {
+            "id": "870c2976c4b4d4f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GITHUB-README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GITHUB-README"
+            }
+          },
+          {
+            "id": "229ade42fe242607",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3276cc759be7f480",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2ceb05cf4603b659",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GITHUB-README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GITHUB-README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "479e4070568e9c4c",
+  "lastOpenFiles": [
+    "README (5).md",
+    "GITHUB-README.md",
+    "Formulas-Cheatsheet.md",
+    "14-Transactions-Concurrency.md",
+    "11-Query-Processing.md",
+    "09-Normalization.md",
+    "05-Relational-Algebra.md",
+    "04-SQL-Fundamentals.md",
+    "02b-Relationships.md",
+    "02-ER-Modeling.md",
+    "Unconfirmed 414393.crdownload",
+    "Unconfirmed 715700.crdownload",
+    "Unconfirmed 639869.crdownload",
+    "Unconfirmed 465928.crdownload",
+    "Unconfirmed 881596.crdownload",
+    "Unconfirmed 107784.crdownload",
+    "Unconfirmed 415772.crdownload",
+    "Unconfirmed 168207.crdownload",
+    "Welcome.md"
+  ]
+}
