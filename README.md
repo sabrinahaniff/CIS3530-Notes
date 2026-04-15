@@ -68,13 +68,6 @@ for file in *.md; do pandoc "$file" -o "${file%.md}.html"; done
 
 ## Study Paths
 
-### For Exam Prep (2-3 days)
-1. Start with [[Formulas-Cheatsheet]]
-2. Review [[09-Normalization]] (most testable)
-3. Practice [[04-SQL-Fundamentals]] queries
-4. Read [[14-Transactions-Concurrency]] for concurrency scenarios
-5. Skim [[11-Query-Processing]] for optimization rules
-
 ### For Deep Understanding (Full Course)
 1. Follow the chapter order in [[README]]
 2. Do practice problems at the end of each chapter
