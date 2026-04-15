@@ -66,21 +66,6 @@ for file in *.md; do pandoc "$file" -o "${file%.md}.html"; done
 
 ---
 
-## Study Paths
-
-### For Deep Understanding (Full Course)
-1. Follow the chapter order in [[README]]
-2. Do practice problems at the end of each chapter
-3. Draw your own examples
-4. Teach concepts to someone else (Feynman technique)
-
-### For Quick Lookup
-- Jump to [[Formulas-Cheatsheet]] for specific formulas
-- Use search (`Ctrl/Cmd + O` in Obsidian) for specific terms
-- Check the tags at the bottom of each chapter
-
----
-
 ## Key Features
 
 ### Interactive Elements
