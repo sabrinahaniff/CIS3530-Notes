@@ -1,184 +1,80 @@
-# CIS3530 Database Systems - Professional Study Notes
+# CIS3530 - Database Systems Notes
 
-## About These Notes
+> Comprehensive study notes for Database Systems course
 
-These notes cover a full Database Systems course (CIS3530) with topics including:
-- ER modeling and database design
-- SQL and relational algebra
-- Normalization and functional dependencies
-- Query processing and optimization
-- Transaction management and concurrency control
-- Recovery and security
+## Table of Contents
 
-**Format**: Professional markdown notes optimized for [Obsidian](https://obsidian.md/) with internal linking, callouts, and organization.
+### Core Concepts
+- [[01-Introduction|Chapter 1: Introduction to Databases]]
+- [[02-ER-Modeling|Chapter 2: ER Modeling & Diagrams]]
+- [[03-Relational-Model|Chapter 3: Relational Model & Constraints]]
+- [[04-SQL-Fundamentals|Chapter 4: SQL Fundamentals]]
 
----
+### Theoretical Foundations
+- [[05-Relational-Algebra|Chapter 5: Relational Algebra]]
+- [[06-Relational-Calculus|Chapter 6: Relational Calculus (TRC)]]
+- [[07-Mathematical-Concepts|Chapter 7: Mathematical Concepts]]
 
-## Structure
+### Database Design
+- [[08-Functional-Dependencies|Chapter 8: Functional Dependencies]]
+- [[09-Normalization|Chapter 9: Normalization (1NF, 2NF, 3NF, BCNF)]]
+- [[10-ER-to-Relational-Mapping|Chapter 10: ER-to-Relational Mapping]]
 
-### Core Topics
-- **Chapters 1-4**: Database fundamentals, ER modeling, SQL basics
-- **Chapters 5-7**: Relational algebra, calculus, mathematical foundations
-- **Chapters 8-10**: Functional dependencies, normalization, ER-to-relational mapping
-- **Chapters 11-13**: Query processing, optimization, access methods
-- **Chapters 14-17**: Transactions, concurrency, recovery, security
+### Query Processing
+- [[11-Query-Processing|Chapter 11: Query Processing & Optimization]]
+- [[12-Access-Methods|Chapter 12: Access Methods & Indexes]]
+- [[13-Join-Algorithms|Chapter 13: Join Algorithms]]
 
-### Quick Reference
-- **Formulas Cheatsheet**: Quick lookup for all major formulas and algorithms
-- **SQL Quick Reference**: Common SQL patterns and syntax
-- **Normalization Quick Guide**: Step-by-step normalization rules
+### Transaction Management
+- [[14-Transactions-Concurrency|Chapter 14: Transactions & Concurrency Control]]
+- [[15-Locking-Protocols|Chapter 15: Locking Protocols (2PL, Deadlocks)]]
+- [[16-Recovery|Chapter 16: Recovery & ACID]]
 
----
+### Security
+- [[17-Database-Security|Chapter 17: Database Security (DAC, MAC, RBAC)]]
 
-## How to Use
-
-### Option 1: Obsidian (Recommended)
-
-1. **Install Obsidian**: Download from [obsidian.md](https://obsidian.md/)
-2. **Open as Vault**: File → Open folder as vault → Select `database-notes` folder
-3. **Start with README.md**: This is your main index with links to all chapters
-4. **Navigate**: Click internal links like `[[Chapter-Name]]` to jump between topics
-
-**Benefits**:
-- Graph view to see connections between topics
-- Quick switching between related concepts
-- Search across all notes instantly
-- Theme customization
-
-### Option 2: Any Markdown Viewer
-
-These notes are plain markdown and work in:
-- **VS Code** (with markdown preview)
-- **GitHub** (renders automatically)
-- **Typora**, **Mark Text**, or any markdown editor
-
-### Option 3: Convert to Other Formats
-
-Use [Pandoc](https://pandoc.org/) to convert to PDF, HTML, or DOCX:
-
-```bash
-# Convert a chapter to PDF
-pandoc 09-Normalization.md -o Normalization.pdf
-
-# Convert all to HTML
-for file in *.md; do pandoc "$file" -o "${file%.md}.html"; done
-```
+### Quick References
+- [[SQL-Quick-Reference|SQL Quick Reference]]
+- [[Normalization-Quick-Guide|Normalization Quick Guide]]
+- [[Formulas-Cheatsheet|Formulas & Algorithms Cheatsheet]]
+- [[Common-Patterns|Common Exam Patterns]]
 
 ---
 
-## Study Paths
+## Study Tips
 
-### For Exam Prep (2-3 days)
-1. Start with [[Formulas-Cheatsheet]]
-2. Review [[09-Normalization]] (most testable)
-3. Practice [[04-SQL-Fundamentals]] queries
-4. Read [[14-Transactions-Concurrency]] for concurrency scenarios
-5. Skim [[11-Query-Processing]] for optimization rules
+> [!tip] Exam Preparation
+> - Focus on **normalization** and **FD reasoning**
+> - Practice **SQL queries** and **relational algebra** conversions
+> - Understand **2PL locking** and **deadlock scenarios**
+> - Master **ER-to-relational mapping** rules
 
-### For Deep Understanding (Full Course)
-1. Follow the chapter order in [[README]]
-2. Do practice problems at the end of each chapter
-3. Draw your own examples
-4. Teach concepts to someone else (Feynman technique)
+## Key Topics 
 
-### For Quick Lookup
-- Jump to [[Formulas-Cheatsheet]] for specific formulas
-- Use search (`Ctrl/Cmd + O` in Obsidian) for specific terms
-- Check the tags at the bottom of each chapter
+1. **ER Diagrams**: Cardinality, participation, weak entities
+2. **Normalization**: 1NF → 2NF → 3NF → BCNF progression
+3. **SQL**: Joins, subqueries, aggregation, HAVING
+4. **Relational Algebra**: σ, π, ⨝, ÷ operators
+5. **Query Optimization**: Push σ/π down, access path selection
+6. **Concurrency**: Strict 2PL, conflict serializability
+7. **Recovery**: UNDO/REDO, WAL, checkpoints
 
 ---
 
-## Key Features
+## Notation Guide
 
-### Interactive Elements
-- **Collapsible answers** for practice problems
-- **Internal links** between related topics
-- **Tags** for easy searching
-- **Examples** with both correct and incorrect approaches
-
-### Exam-Focused
-- **Common mistake warnings**
-- **Decision trees** for algorithm selection
-- **Quick reference tables**
-- **Practice problems with solutions**
-
----
-
-##  Contributing
-
-Found an error or want to add examples?
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-**Contribution ideas**:
-- Add more practice problems
-- Create visual diagrams (Mermaid or ASCII art)
-- Add real-world examples
-- Expand on specific topics
-- Fix typos or improve explanations
+| Symbol | Meaning | Example |
+|--------|---------|---------|
+| σ | Selection (filter rows) | σ<sub>salary>50000</sub>(EMPLOYEE) |
+| π | Projection (select columns) | π<sub>name,dept</sub>(EMPLOYEE) |
+| ⨝ | Join | R ⨝<sub>R.id=S.id</sub> S |
+| × | Cartesian Product | R × S |
+| ∪ | Union | R ∪ S |
+| ∩ | Intersection | R ∩ S |
+| − | Difference | R − S |
+| ÷ | Division | R ÷ S |
+| ρ | Rename | ρ<sub>T(A,B)</sub>(R) |
 
 ---
 
-## Notes on Notation
-
-### Relational Algebra Symbols
-
-Due to markdown limitations, we use standard notation:
-- `σ` = Selection (sigma)
-- `π` = Projection (pi)
-- `ρ` = Rename (rho)
-- `⋈` = Join
-- `×` = Product
-- `∪` = Union
-- `∩` = Intersection
-- `−` = Difference
-- `÷` = Division
-
-In Obsidian, these render properly. In plain text editors, they may appear as Unicode symbols.
-
----
-
-##  Maintenance
-
-These notes are maintained as part of course study materials. Updates include:
-- New practice problems
-- Clarifications based on common questions
-- Additional examples
-- Links to external resources
-
-**Last Updated**: April 2026
-
----
-
-##  Recommended Resources
-
-### Books
-- *Database System Concepts* by Silberschatz, Korth, Sudarshan
-- *Fundamentals of Database Systems* by Elmasri, Navathe
-
-### Online Resources
-- [SQL Tutorial - W3Schools](https://www.w3schools.com/sql/)
-- [Stanford DB Course](https://cs.stanford.edu/people/widom/DB-mooc.html)
-- [CMU Database Systems Course](https://15445.courses.cs.cmu.edu/)
-
-### Practice
-- [SQLZoo](https://sqlzoo.net/) - Interactive SQL practice
-- [LeetCode Database](https://leetcode.com/problemset/database/) - SQL problems
-- [HackerRank SQL](https://www.hackerrank.com/domains/sql) - Structured practice
-
----
-
-##  License
-
-These notes are provided for educational purposes. Feel free to use, share, and modify for your own learning.
-
-**Attribution**: If you share or build upon these notes, a link back to this repository is appreciated!
-
----
-
-##  Star This Repo
-
-If these notes helped you, consider starring the repository to help others find it!
+*Last Updated: April 2026*
