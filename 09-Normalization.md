@@ -239,7 +239,7 @@ T2: STUDENT_COURSE(Student, Course)
 
 ---
 
-## 📝 Complete Examples
+## Complete Examples
 
 ### Example 1: 2NF Violation
 
@@ -322,8 +322,8 @@ T2: ENROLLMENT(Student, Course)
 <details>
 <summary>Answer</summary>
 
-- ✅ 1NF (atomic)
-- ❌ **2NF violated**: `A → C` is a partial dependency (A is part of key, C is non-prime)
+- (Yes) 1NF (atomic)
+- (No) **2NF violated**: `A → C` is a partial dependency (A is part of key, C is non-prime)
 - Need to split into: `R1(A, C)` and `R2(A, B)`
 
 </details>
@@ -338,9 +338,9 @@ T2: ENROLLMENT(Student, Course)
 <details>
 <summary>Answer</summary>
 
-- ✅ 1NF, 2NF (single-attribute key)
-- ❌ **3NF violated**: `B → C` and `C → D` (transitive: A → B → C → D)
-- ❌ **BCNF violated**: B and C are not superkeys
+- (Yes) 1NF, 2NF (single-attribute key)
+- (No) **3NF violated**: `B → C` and `C → D` (transitive: A → B → C → D)
+- (No) **BCNF violated**: B and C are not superkeys
 - Split into: `R1(A, B)`, `R2(B, C)`, `R3(C, D)`
 
 </details>
@@ -354,6 +354,3 @@ T2: ENROLLMENT(Student, Course)
 - [[10-ER-to-Relational-Mapping|ER-to-Relational Mapping]]
 
 ---
-
-## Tags
-#normalization #1nf #2nf #3nf #bcnf #functional-dependencies #database-design
