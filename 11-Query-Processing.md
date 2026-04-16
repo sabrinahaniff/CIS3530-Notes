@@ -152,7 +152,7 @@ The same query can be executed in **many different ways**:
 
 ---
 
-## 🔗 Join Algorithms
+##  Join Algorithms
 
 ### J1: Nested-Loop Join
 
@@ -427,7 +427,7 @@ FROM EMPLOYEE ⋈_{dno=did} (σ_{dept='CS'}(DEPARTMENT))
 
 ---
 
-## 💡 Optimization Checklist
+## Optimization Check
 
 Before submitting a query plan:
 
