@@ -200,7 +200,7 @@ T1: COMMIT       ← Unlock(X) happens here
 
 ---
 
-## 🏢 Multiple Granularity Locking
+## Multiple Granularity Locking
 
 Allows locking at different levels: **Database → Table → Page → Row**
 
