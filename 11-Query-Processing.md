@@ -448,6 +448,3 @@ Before submitting a query plan:
 - [[05-Relational-Algebra|Relational Algebra Basics]]
 
 ---
-
-## Tags
-#query-optimization #access-methods #join-algorithms #cost-model #heuristics
