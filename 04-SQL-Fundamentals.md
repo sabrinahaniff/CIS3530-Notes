@@ -422,6 +422,3 @@ HAVING COUNT(*) > 5 AND AVG(Salary) > 60000;
 - [[06-Relational-Calculus|Relational Calculus]]
 
 ---
-
-## Tags
-#sql #select #join #aggregation #subquery #where #having #group-by
