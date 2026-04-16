@@ -435,5 +435,3 @@ Then join back to EMPLOYEE to get names:
 
 ---
 
-## Tags
-#relational-algebra #selection #projection #join #division #query-language
