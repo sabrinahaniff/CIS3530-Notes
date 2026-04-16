@@ -125,5 +125,3 @@ Every **simple attribute** has a **value set** (domain):
 
 ---
 
-## Tags
-#er-diagram #entity #attribute #key #schema #database-design
