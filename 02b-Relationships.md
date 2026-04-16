@@ -213,5 +213,3 @@ See [[10-ER-to-Relational-Mapping|ER-to-Relational Mapping]] for full details.
 
 ---
 
-## Tags
-#relationships #cardinality #participation #roles #er-diagram
