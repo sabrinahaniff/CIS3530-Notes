@@ -1,4 +1,4 @@
-# CIS3530 Database Systems - Professional Study Notes
+# CIS3530 Database Systems 
 
 ## About These Notes
 
