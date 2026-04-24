@@ -64,7 +64,7 @@ The same query can be executed in **many different ways**:
 
 ---
 
-## 🔍 Access Methods (Selection Algorithms)
+## Access Methods (Selection Algorithms)
 
 ### S1: Linear Scan
 
